@@ -1,4 +1,4 @@
-# desafio consiste em desifrar uma mensagem cripitografada.
+# desafio consiste em decifrar uma mensagem cripitografada.
 
 # Usando ord(), Basicamente a gente ira pegar as letras é converte para o numero correspondete em ASCII, exemplo: a = 97, se somar 97 + 2 = 99, 99 é correspondete a c em ASCII.
 
