@@ -1,0 +1,5 @@
+Esse grupo de mini programas ou projetos, como deseja chamar 
+faz parte, de um estudo do Microsoft learn, bom pegando as aulas como base, recriando oque foi passado, para fins didáticos. 
+
+
+git hub: https://github.com/zHaterz
