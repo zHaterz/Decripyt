@@ -10,6 +10,13 @@
 
 # operador mod, para efutar os calculos em ordem, precisara ficar atento as ordem de precedencias 
 
+from tkinter import *
+
+decry = Tk()
+
+decry.geometry("250x100")
+decry.title("-Decripty-")
+
 def lasso_letter(letter, shift_amount):
     # passo 0
     letter_code = ord(letter.lower())
@@ -47,14 +54,26 @@ def lasso_word(word , shift_amount):
     return decoded_word
         
     
-    
-    
+  
     
 # \n é usado apenas para quebra de linha!
-print(f'{lasso_word("Ncevy", 13)},{lasso_word("gpvsui", 25)},{lasso_word("ugflgkg", -18)}{lasso_word("wjmmf", -1)}')
 
+# Funções do GUI 
 
-# print(lasso_letter("p", -2))
+# Fiz uma pequena melhoria usando o Tkinter, ainda incompleto porem com forme irei aprendendo codigo será aprimorado!
+
+def clicar():
+    Complit = (f'{lasso_word("Ncevy", 13)},{lasso_word("gpvsui", 25)},{lasso_word("ugflgkg", -18)}{lasso_word("wjmmf", -1)}')
+    
+    text["text"] = Complit
+
+text = Label(decry, text="**********")
+text.grid(column=0, row=1)
+
+bott = Button(decry,text="Decripitar", command=clicar)
+bott.grid(column=0, row=2)
+
+decry.mainloop()
 
     
     
